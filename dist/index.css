@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  margin: 20px auto
+}
+
+.container .grid {
+  background-color: rgb(200, 200, 200);
+  width: 10px;
+  height: 10px;
+  float: left;
+  border: 1px solid rgb(255, 255, 255);
+  box-sizing: border-box;
+}
+
+.container .head {
+  background-color: rgba(138, 43, 226, 0.5);
+}
+
+.container .snake {
+  background-color: blueviolet;
+}
+
+.container .food {
+  background-color: gold;
+  border-radius: 50%;
+}
+
+.text {
+  text-align: center;
+}

@@ -1,0 +1,41 @@
+:root {
+  --szie: 500px;
+  --grid: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: var(--szie);
+  height: var(--szie);
+  margin: 20px auto;
+
+  & .grid {
+    background-color: gray(200);
+    width: var(--grid);
+    height: var(--grid);
+    float: left;
+    border: 1px solid gray(300);
+    box-sizing: border-box;
+  }
+
+  & .head {
+    background-color: color(blueviolet alpha(-50%));
+  }
+
+  & .snake {
+    background-color: blueviolet;
+  }
+
+  & .food {
+    background-color: gold;
+    border-radius: 50%;
+  }
+}
+
+.text {
+  text-align: center;
+}
